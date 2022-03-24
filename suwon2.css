@@ -1,0 +1,40 @@
+#header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  margin-bottom: 100px;
+}
+
+#body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#body .logo_area {
+  width: 800px;
+  overflow: hidden;
+  clear: both;
+}
+
+#body .logo_area .logo {
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 112px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  text-decoration: none;
+  margin: 10px;
+}
+
+#body .logo_area .logo:hover {
+  background-color: lightgray;
+}
+
+#body .logo_area .logo i {
+  font-size: 50px;
+  float: left;
+}
